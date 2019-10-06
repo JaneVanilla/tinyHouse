@@ -10,7 +10,8 @@
 /**common styles**/
 body {
   margin: 0;
-  background: #fff; }
+  background: #fff;
+  overflow-x: hidden;}
 
 h1, h2, h3 {
   margin: 0; }
