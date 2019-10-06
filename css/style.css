@@ -89,13 +89,13 @@ img {
   .page-header__navigation {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    display: none;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
     position: absolute;
-    right: -100%;
+    right: 0;
     top: 60px;
     width: 100%;
     height: 100vh;
@@ -134,7 +134,7 @@ img {
   .page-header__bars i:hover {
     color: #f39200; }
   .page-header .show {
-    right: 0; }
+   display: flex; }
 
 /*Header Tablet*/
 @media (min-width: 992px) {
@@ -151,6 +151,7 @@ img {
       font-size: 69px;
       line-height: 111px; }
     .page-header__navigation {
+      display: flex;
       -webkit-box-pack: justify;
       -ms-flex-pack: justify;
       justify-content: space-between;
